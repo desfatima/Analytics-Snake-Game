@@ -1,0 +1,11 @@
+from collections import Counter
+
+def get_ngrams(sequence, n=3):
+    return [tuple(sequence[i:i+n]) for i in range(len(sequence) - n + 1)]
+
+def extract_common_patterns(all_sequences, n=3, top_k=10):
+    all_ngrams = []
+    for seq in all_sequences:
+        all_ngrams.extend(get_ngrams(seq, n))
+    counter = Counter(all_ngrams)
+    return counter.most_common(top_k)
