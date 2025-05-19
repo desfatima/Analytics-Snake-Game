@@ -1,0 +1,65 @@
+{
+  "duration_ms": 9359,
+  "startTime": "2025-05-19T21:21:06.458Z",
+  "sessionHour": 0,
+  "applesEaten": 3,
+  "directionChanges": 8,
+  "failReason": "self",
+  "movements": [
+    {
+      "x": 5,
+      "y": 10,
+      "direction": "right",
+      "timestamp": 0
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "direction": "down",
+      "timestamp": 1446
+    },
+    {
+      "x": 17,
+      "y": 19,
+      "direction": "left",
+      "timestamp": 2667
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "direction": "up",
+      "timestamp": 4239
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "direction": "left",
+      "timestamp": 5568
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "direction": "down",
+      "timestamp": 5886
+    },
+    {
+      "x": 1,
+      "y": 29,
+      "direction": "right",
+      "timestamp": 8478
+    },
+    {
+      "x": 7,
+      "y": 29,
+      "direction": "down",
+      "timestamp": 9180
+    },
+    {
+      "x": 7,
+      "y": 29,
+      "direction": "left",
+      "timestamp": 9221
+    }
+  ],
+  "lost": true
+}

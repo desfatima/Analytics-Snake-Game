@@ -1,0 +1,371 @@
+{
+  "duration_ms": 41227,
+  "startTime": "2025-05-19T21:02:29.039Z",
+  "sessionHour": 0,
+  "applesEaten": 12,
+  "directionChanges": 55,
+  "failReason": "self",
+  "movements": [
+    {
+      "x": 5,
+      "y": 10,
+      "direction": "up",
+      "timestamp": 0
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "direction": "",
+      "timestamp": 435
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "direction": "left",
+      "timestamp": 763
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "direction": "down",
+      "timestamp": 959
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "direction": "right",
+      "timestamp": 1972
+    },
+    {
+      "x": 5,
+      "y": 12,
+      "direction": "down",
+      "timestamp": 2211
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "direction": "left",
+      "timestamp": 2905
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "direction": "down",
+      "timestamp": 3042
+    },
+    {
+      "x": 4,
+      "y": 26,
+      "direction": "right",
+      "timestamp": 4203
+    },
+    {
+      "x": 12,
+      "y": 26,
+      "direction": "up",
+      "timestamp": 5197
+    },
+    {
+      "x": 12,
+      "y": 24,
+      "direction": "right",
+      "timestamp": 5385
+    },
+    {
+      "x": 22,
+      "y": 24,
+      "direction": "down",
+      "timestamp": 6706
+    },
+    {
+      "x": 22,
+      "y": 26,
+      "direction": "right",
+      "timestamp": 6934
+    },
+    {
+      "x": 23,
+      "y": 26,
+      "direction": "",
+      "timestamp": 7080
+    },
+    {
+      "x": 26,
+      "y": 26,
+      "direction": "up",
+      "timestamp": 7392
+    },
+    {
+      "x": 26,
+      "y": 21,
+      "direction": "left",
+      "timestamp": 8090
+    },
+    {
+      "x": 25,
+      "y": 21,
+      "direction": "up",
+      "timestamp": 8216
+    },
+    {
+      "x": 25,
+      "y": 9,
+      "direction": "left",
+      "timestamp": 9627
+    },
+    {
+      "x": 23,
+      "y": 9,
+      "direction": "down",
+      "timestamp": 9921
+    },
+    {
+      "x": 23,
+      "y": 11,
+      "direction": "left",
+      "timestamp": 10138
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "direction": "up",
+      "timestamp": 10526
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "direction": "left",
+      "timestamp": 10990
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "direction": "up",
+      "timestamp": 11717
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "direction": "left",
+      "timestamp": 11853
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "direction": "down",
+      "timestamp": 12435
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "direction": "right",
+      "timestamp": 12540
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "direction": "down",
+      "timestamp": 12978
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "direction": "left",
+      "timestamp": 13095
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "direction": "down",
+      "timestamp": 13902
+    },
+    {
+      "x": 6,
+      "y": 11,
+      "direction": "right",
+      "timestamp": 14141
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "direction": "down",
+      "timestamp": 14639
+    },
+    {
+      "x": 10,
+      "y": 13,
+      "direction": "right",
+      "timestamp": 14911
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "direction": "down",
+      "timestamp": 15222
+    },
+    {
+      "x": 13,
+      "y": 24,
+      "direction": "right",
+      "timestamp": 16592
+    },
+    {
+      "x": 21,
+      "y": 24,
+      "direction": "down",
+      "timestamp": 17664
+    },
+    {
+      "x": 21,
+      "y": 27,
+      "direction": "left",
+      "timestamp": 18042
+    },
+    {
+      "x": 14,
+      "y": 27,
+      "direction": "down",
+      "timestamp": 18866
+    },
+    {
+      "x": 14,
+      "y": 28,
+      "direction": "left",
+      "timestamp": 19051
+    },
+    {
+      "x": 9,
+      "y": 28,
+      "direction": "down",
+      "timestamp": 19694
+    },
+    {
+      "x": 9,
+      "y": 29,
+      "direction": "left",
+      "timestamp": 19793
+    },
+    {
+      "x": 1,
+      "y": 29,
+      "direction": "up",
+      "timestamp": 20787
+    },
+    {
+      "x": 1,
+      "y": 23,
+      "direction": "right",
+      "timestamp": 21505
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "direction": "down",
+      "timestamp": 21752
+    },
+    {
+      "x": 3,
+      "y": 29,
+      "direction": "right",
+      "timestamp": 22468
+    },
+    {
+      "x": 26,
+      "y": 29,
+      "direction": "up",
+      "timestamp": 25485
+    },
+    {
+      "x": 26,
+      "y": 23,
+      "direction": "left",
+      "timestamp": 26163
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "direction": "up",
+      "timestamp": 27552
+    },
+    {
+      "x": 15,
+      "y": 18,
+      "direction": "left",
+      "timestamp": 28184
+    },
+    {
+      "x": 9,
+      "y": 18,
+      "direction": "up",
+      "timestamp": 28945
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "direction": "right",
+      "timestamp": 30563
+    },
+    {
+      "x": 21,
+      "y": 5,
+      "direction": "down",
+      "timestamp": 32127
+    },
+    {
+      "x": 21,
+      "y": 14,
+      "direction": "left",
+      "timestamp": 33178
+    },
+    {
+      "x": 18,
+      "y": 14,
+      "direction": "up",
+      "timestamp": 33578
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "direction": "left",
+      "timestamp": 34945
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "direction": "down",
+      "timestamp": 35980
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "direction": "right",
+      "timestamp": 37172
+    },
+    {
+      "x": 27,
+      "y": 12,
+      "direction": "down",
+      "timestamp": 39216
+    },
+    {
+      "x": 27,
+      "y": 24,
+      "direction": "left",
+      "timestamp": 40748
+    },
+    {
+      "x": 26,
+      "y": 24,
+      "direction": "up",
+      "timestamp": 40895
+    },
+    {
+      "x": 26,
+      "y": 23,
+      "direction": "right",
+      "timestamp": 41023
+    }
+  ],
+  "lost": true
+}
