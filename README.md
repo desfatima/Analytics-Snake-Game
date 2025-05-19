@@ -41,6 +41,8 @@ This project analyzes player behavior in a 2D Snake game by collecting gameplay 
 - Session data saved in /snake_data.
 - Analyze data and view insights via the Streamlit dashboard.
 
+![Dashboard Screenshot](./Screenshots/dashboard.png)
+
 
 #Data Collection
 - Logs player movements, duration, and apples eaten.
