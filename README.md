@@ -1,74 +1,161 @@
-# Player Insight: ML-Powered Game Analytics for Snake Game
-By FatimaMarie 
+# 🎮 Player Insight: ML-Powered Game Analytics for Snake Game
 
-## Project Overview
+By **Fatima Marie**  
+AI Game Analytics Project – An-Najah National University  
+📅 May 2025
 
-This project analyzes player behavior in a 2D Snake game by collecting gameplay data, applying machine learning to identify player patterns, predict failures, and generate design recommendations. The aim is to improve game design and player experience.
+---
 
-## Technologies Used
+## 📌 Project Overview
 
-- Python  
-- Browser-based 2D Snake game (HTML, CSS, JavaScript)  
-- JSON session files for data collection  
-- scikit-learn (K-Means clustering, Decision Tree)  
-- pandas, matplotlib, seaborn for analysis and visualization  
-- Streamlit for interactive dashboard  
-- ngrok for exposing the dashboard online  
+This project analyzes player behavior in a browser-based 2D Snake game by collecting gameplay data, applying machine learning to identify behavior patterns, predict failures, and generate design recommendations. The aim is to improve game design and player experience.
 
+---
 
-## Installation and Setup
+## 🧠 Objectives
 
-1. Clone the repo:
+- Collect real-time player data (location, direction, session time, failure reason).
+- Cluster players into performance categories using K-Means.
+- Predict player failure using Decision Trees.
+- Extract movement and behavior patterns.
+- Generate automatic design recommendations based on ML results.
 
-   ```bash
-   git clone https://github.com/yourusername/snake-game-analytics.git
-   cd snake-game-analytics
+---
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+## 📁 Folder Structure
 
-3. Mount Google Drive and place session JSON files inside /snake_data.
+```
+Player-Insight-ML-Analytics/
+🔜 game/           # HTML5 Snake Game with data tracking
+🔜 data/           # Collected Player.json session files
+🔜 notebooks/      # Google Colab notebook for data analysis
+🔜 report/         # Final project report
+🔜 dashboard/      # (Optional) Streamlit dashboard
+🔜 screenshots/    # Images for documentation/demo
+🔜 requirements.txt
+🔜 README.md
+```
 
-4. Run data processing and analysis scripts.
+---
 
-5. Launch the dashboard:
-    ```bash
-   streamlit run app.py
+## ⚙️ Technologies Used
 
-#Running the Game and Dashboard
-- Open the game files (index.html, style.css, script.js) locally to play and generate data.
-- Session data saved in /snake_data.
-- Analyze data and view insights via the Streamlit dashboard.
+- 💻 HTML / CSS / JavaScript (game)
+- 🐍 Python for data processing and ML
+- 📆 scikit-learn (K-Means clustering, Decision Trees)
+- 📊 pandas, matplotlib, seaborn (data analysis & visualization)
+- 🌐 Streamlit (dashboard)
+- 🔀 JSON (for session tracking)
+- 🌍 ngrok (for sharing dashboard online)
+
+---
+
+## 🎩 How the Game Works
+
+### 1. Game Setup
+The original Snake game was modified to:
+
+- Log each movement with (x, y), direction, and timestamp.
+- Track direction changes.
+- Record the failure reason (wall/self).
+- Save the session hour and start time.
+- Export a complete `Player.json` file after game over.
+
+### 2. Data Collection
+Players played 20+ test sessions. Each session generates a JSON file like:
+
+```json
+{
+  "duration_ms": 15789,
+  "startTime": "2025-05-19T15:42:00Z",
+  "sessionHour": 15,
+  "applesEaten": 5,
+  "directionChanges": 3,
+  "failReason": "wall",
+  "movements": [...]
+}
+```
+
+### 3. Data Analysis & Machine Learning
+- All sessions are merged using pandas.
+- Clustering with K-Means creates performance groups.
+- Decision Tree model predicts player failure.
+- Visual insights include:
+  - Most used directions
+  - Common failure positions
+  - Player segmentation
+  - Session time vs. performance
+
+---
+
+## 📊 Key Features
+
+👉 Real-time session tracking  
+👉 ML-driven clustering and prediction  
+👉 Visual analytics and graphs  
+👉 Automatic design recommendations  
+👉 Optional interactive dashboard with Streamlit
+
+---
+
+## 📈 Example Insights
+
+- 🔴 Most failures occur within the first 20 seconds.
+- 🍏 Failed players collect fewer than 5 apples on average.
+- 🧠 High performers eat >15 apples and survive >60 seconds.
+- ↪️ Failed players rarely change direction.
+- 🕗 Most failures happen between 8PM–11PM.
+
+---
+
+## ▶️ How to Run
+
+### 🔹 Game
+1. Open `index.html` from `/game/` in your browser.
+2. Play the game — a download button appears after failure.
+3. Save the `Player.json` file.
+
+### 🔹 Data Analysis
+1. Upload your JSON files into `/data/`.
+2. Open the notebook in `/notebooks/` via Google Colab.
+3. Run all cells to generate analysis, graphs, and predictions.
+
+### 🔹 Dashboard (Optional)
+```bash
+pip install streamlit pyngrok
+streamlit run dashboard/app.py
+```
+
+Use `ngrok` to expose the dashboard online if needed.
+
+---
+
+## 📷 Sample Screenshot
 
 ![Dashboard Screenshot](./Screenshots/dashboard.png)
 
+---
 
-#Data Collection
-- Logs player movements, duration, and apples eaten.
-- Stores sessions as JSON files.
+## 🧪 Machine Learning Techniques
 
+- **K-Means Clustering** to segment players into High, Average, Low performance groups.
+- **Decision Tree** to predict likely failure based on behavior.
+- **Pattern Recognition**: Common sequences of movement (3-grams).
+- **Automated Design Recommendations** based on analysis.
 
-#Machine Learning
-- Clusters players with K-Means based on session metrics.
-- Uses Decision Tree to predict player failure.
-- Extracts common 3-move patterns (3-grams).
+---
 
+## 📄 Report & Video
 
-#Folder Structure
-   ```bash
-    /game_code       # Game source files
-    /data            # Session data and processed datasets
-    /ml              # ML scripts and notebooks
-    /dashboard       # Dashboard code
-    /screenshots     # Documentation images
-    README.md
-    requirements.txt 
-```
+- 📁 Full written report is in `/report/`  
+- 🎥 3–5 min video demo explains project flow, gameplay, and insights
 
+---
 
-#References
-```bash
-   scikit-learn https://scikit-learn.org/stable/
-   Streamlit https://docs.streamlit.io/ 
-   Ngrok https://ngrok.com/docs ``
+## 📚 References
+
+- [scikit-learn](https://scikit-learn.org/stable/)
+- [pandas](https://pandas.pydata.org/)
+- [seaborn](https://seaborn.pydata.org/)
+- [Streamlit](https://streamlit.io/)
+- [Ngrok](https://ngrok.com/)
