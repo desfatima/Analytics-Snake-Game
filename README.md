@@ -30,7 +30,7 @@ Player-Insight-ML-Analytics/
 🔜 data/           # Collected Player.json session files
 🔜 notebooks/      # Google Colab notebook for data analysis
 🔜 report/         # Final project report
-🔜 dashboard/      # (Optional) Streamlit dashboard
+🔜 dashboard/      # (Optional) Streamlit dashboard + ngrok
 🔜 screenshots/    # Images for documentation/demo
 🔜 requirements.txt
 🔜 README.md
