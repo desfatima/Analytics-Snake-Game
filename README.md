@@ -121,6 +121,7 @@ Players played 20+ test sessions. Each session generates a JSON file like:
 3. Run all cells to generate analysis, graphs, and predictions.
 
 ### 🔹 Dashboard (Optional)
+https://analytics-snake-game-iyy8catketulupashqdtrj.streamlit.app
 ```bash
 pip install streamlit pyngrok
 streamlit run dashboard/app.py
