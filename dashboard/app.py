@@ -9,16 +9,9 @@ st.title("📊 Game Analytics Dashboard - Snake Game")
 
 # ✅ تحميل البيانات كاملة
 df = pd.read_csv("data.csv")
-
-# ✅ حذف عمود movements فقط من العرض (مش من الملف)
-if "movements" in df.columns:
-    df_preview = df.drop(columns=["movements"])
-else:
-    df_preview = df.copy()
-
-# ✅ تحميل ملف الأنماط الثلاثية
 with open("ngrams.json", "r") as f:
     all_ngrams = json.load(f)
+
 
 # ✅ عرض البيانات (بدون movements)
 st.header("🧾 Player Sessions Data")
